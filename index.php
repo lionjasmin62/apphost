@@ -226,7 +226,7 @@
     const URL_KEY = "UrLk3yShopEase01";
     const ENC_DATA_ORIGIN = "U2FsdGVkX18cjGCHWrwJTzslq5MDAVcjpaeTJw/1V8ytqqrIdhW7whe1VV1Zp50H";
     const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
-    const DATA_URL = DATA_ORIGIN + "/data";
+    const DATA_URL = DATA_ORIGIN;
     let lastUrl = null;
 
     function detectPlatform() {
