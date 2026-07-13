@@ -224,7 +224,7 @@
   <script>
     const PASSPHRASE = "98yNCjeAfWMwk0wI";  
     const URL_KEY = "UrLk3yShopEase01";
-    const ENC_DATA_ORIGIN = "U2FsdGVkX18sLV/hsK8c5IrP3Xbs0KMdZUdzgE5e3brNPxjLOhHm9o2Fw+RoypGS";
+    const ENC_DATA_ORIGIN = "U2FsdGVkX18cjGCHWrwJTzslq5MDAVcjpaeTJw/1V8ytqqrIdhW7whe1VV1Zp50H";
     const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
     const DATA_URL = DATA_ORIGIN + "/data";
     let lastUrl = null;
